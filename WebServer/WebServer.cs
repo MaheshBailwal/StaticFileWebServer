@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using System.Net.Mime;
-using System.Security.Authentication.ExtendedProtection;
 using System.Threading;
-using System.Linq;
 using System.Text;
 using HttpHandlers;
-using WebServer;
 using WebServer.Interface;
+
 namespace WebServer
 {
     public class WebServer : IWebServer
@@ -27,14 +23,12 @@ namespace WebServer
 
             if (prefixes == null || prefixes.Length == 0)
                 throw new ArgumentException("prefixes");
-
      
             foreach (string s in prefixes)
                 _listener.Prefixes.Add(s);
 
             _listener.Start();
         }
-
 
         public void StartServer()
         {
@@ -47,9 +41,7 @@ namespace WebServer
                 }
                 catch { }
             });
-
         }
-
 
         private void StartListening()
         {
