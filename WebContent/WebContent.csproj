@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="HTMLPage1.htm" />
+    <Content Include="index.html" />
     <Content Include="Script\Control3.js" />
     <Content Include="Script\Control2.js" />
     <Content Include="Script\Control1.js" />

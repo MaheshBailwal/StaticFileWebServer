@@ -7,12 +7,10 @@ using System.Security.Authentication.ExtendedProtection;
 using System.Threading;
 using System.Linq;
 using System.Text;
-
 using HttpHandlers;
-
 using WebServer;
 using WebServer.Interface;
-namespace SimpleWebServer
+namespace WebServer
 {
     public class WebServer : IWebServer
     {
