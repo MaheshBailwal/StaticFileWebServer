@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServer", "WebServer\WebServer.csproj", "{5F7D2A61-017B-4393-A829-BC387C156100}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServer.Interface", "WebS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHandlers", "HttpHandlers\HttpHandlers.csproj", "{C290A564-8578-44B5-979D-94D6A41FB92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebContent", "WebContent\WebContent.csproj", "{24A5F8F7-7881-43A0-B637-A6D72371AD6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebContent", "WebContent\SampleWebContent.csproj", "{24A5F8F7-7881-43A0-B637-A6D72371AD6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServer.Host", "Host\WebServer.Host.csproj", "{388DD8D9-1B44-49DD-B801-E74EA62B2A87}"
 EndProject
